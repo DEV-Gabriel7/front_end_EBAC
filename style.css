@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Bebas Neue", sans-serif;
+}
+
+h1 {
+    text-align: center;
+}
+
+.container {
+    margin: 120px auto;
+    max-width: 600px;
+    width: 100%;
+    display: block;
+}
+
+input, button {
+    display: block;
+    padding: 8px;
+    margin-bottom: 8px;
+    width: 100%;
+    resize: none;
+}
+
+button {
+    background-color: black;
+    border: none;
+    color: #fff;
+    font-weight: bold;
+    font-size: 20px;
+    cursor: pointer;
+    margin: 28px auto;
+}
+
+button:hover {
+    background-color: rgba(0, 0, 0, 0.74);
+}
+
+p {
+    text-align: center;
+}
