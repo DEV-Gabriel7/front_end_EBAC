@@ -1,0 +1,21 @@
+body {
+    margin-top: 50px;
+    font: bold;
+    font-size: 18px;
+    margin-left: 50px;
+}
+
+
+#nome-tarefa,
+#cadastrar {
+    padding: 8px;
+}
+
+li{
+    cursor: pointer;
+}
+
+.completo {
+    text-decoration: line-through
+}
+
