@@ -1,0 +1,164 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "Bodoni Moda SC", serif;
+}
+
+header {
+    padding: 8px;
+    background-color: black;
+    color: #fff;
+}
+
+nav a {
+    margin: 8px;
+    text-decoration: none;
+    color: #fff;
+}
+
+h1 {
+    font-size: 32px;
+}
+
+h2 {
+    padding: 8px;
+    font-size: 28px;
+}
+
+p {
+    text-align: left;
+    margin-bottom: 12px;
+}
+
+img {
+    max-width: 100%;
+}
+
+button {
+    padding: 6px;
+    width: 100%;
+    color:#fff;
+    background-color: black;
+    border-radius: 10px;
+    border-style: none;
+    margin-bottom: 28px;
+}
+
+.container {
+    max-width: 1024px;
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.sobre {
+    max-width: 1024px;
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 36px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 32px;
+}
+
+#apresentacao h1 {
+    border-bottom: 2px solid black;
+    padding: 8px;
+    margin-bottom: 28px;
+    align-items: center;
+}
+
+.produtos {
+    max-width: 1024px;
+    width: 100%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 20px;
+}
+
+#secao-produtos h1 {
+    max-width: 1024px;
+    width: 100%;
+    margin: 18px auto;
+    border-bottom: 2px solid black;
+    margin-bottom: 38px;
+    padding: 8px;
+}
+
+.produtos {
+    text-align: center;
+}
+
+@media screen and (min-width: 641px) and (max-width: 1023px) {
+    img {
+        max-width: 100%;
+    }
+
+    .container {
+        width: 90%;
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    
+    .sobre {
+        display: block;
+        max-width: 90%;
+    }
+
+    #secao-produtos h1 {
+        width: 90%;
+        margin: 18px auto;
+        border-bottom: 2px solid black;
+        margin-bottom: 42px;
+        padding: 8px;
+    }
+
+    .produtos {
+        width: 90%;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+}
+
+@media screen and (max-width: 640px) {
+    img {
+        max-width: 100%;
+    }
+    
+    .container {
+        max-width: 640px;
+        width: 90%;
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .sobre {
+        display: block;
+        max-width: 90%;
+    }
+
+    #secao-produtos h1 {
+        max-width: 640px;
+        width: 90%;
+        margin: 18px auto;
+        border-bottom: 2px solid black;
+        margin-bottom: 38px;
+        padding: 8px;
+    }
+    
+    .produtos {
+        width: 90%;
+        margin: 0 auto;
+        display: block;
+    }
+}
